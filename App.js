@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>This is Charm Weather! 동기화가 된다고?</Text>
+      <Text style={styles.text}>This is Charm Weather!</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -16,5 +16,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  text: {
+    color: 'black',
+    fontSize: 28
   },
 });
